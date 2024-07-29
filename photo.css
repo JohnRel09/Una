@@ -1,0 +1,32 @@
+body{
+
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Background.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.container {
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    gap: 10px;
+    width: 250px;
+    
+}
+.container .name{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.container img{
+    width: 2in;
+    height: 2in;
+    object-fit: cover;
+}
+.container:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+}
+.container img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("Background.jpg");
+    background-size: 100% 100%;
+}
+.container .profile{
+    position: relative;
+    background: #433d8b;
+    padding: 60px;
+}
+.card .item{
+    color: #fff;
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.575);
+    border: 1px solid rgb(255, 255, 255);
+
+   
+}
+
+.card .item h2{
+    color:#fff;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.card .item  h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.card .item .profile .user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #ffffff;
+}
+.card .description{
+    padding-left: 15px;
+}
+.card .description h3{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+}
+
+.card .description p{
+    color: #000000;
+    font-weight: 550;
+    
+    padding: 7px;
+    
+}
+.card ul li{
+    list-style: none;
+}

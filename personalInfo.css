@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #d3b5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #C8ACD6;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+.container .left_Side{
+    position: relative;
+    background: #433d8b;
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.profileText .imageBox{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imageBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color:#fff;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contactInfo{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+}
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+.expertise{
+    padding-top: 40px;
+}
+.expertise .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.expertise ul{
+    position: relative;
+}
+.expertise ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.expertise ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.expertise ul  li span{
+    color: #fff;
+    font-weight: 300;
+}
+.language{
+    padding-top: 40px;
+}
+.expertise .title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.language ul{
+    position: relative;
+
+}
+.language ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.language ul  li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.titulo{
+    padding: auto;
+}
+.about{
+    display: flex;
+    margin-right: 200px;
+    justify-content: space-between;
+    
+}
+.titlee{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.about ul{
+    position: relative;
+}
+.about ul li{
+    position: relative;
+    list-style: none;
+    margin: 4px 0;
+    cursor: pointer;
+}
+.about ul li span{
+    color: #000000;
+    font-weight: 300;
+    
+}
+.skills{
+    padding-top: 20px;
+    border-top: 3px solid rgb(0, 0, 0);
+    
+}
+.skills .kahon{
+    padding-top: 5px;
+    border-top: 3px solid rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;    
+}
+.skills .kahon h3{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    justify-content: space-between;
+    padding: 7px;
+    
+}
+.skills .kahon .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.skills .kahon .percent div{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+background: #03a9f4;
+
+}
+.huli{
+    padding-top: 5px;
+    border-top: 3px solid rgb(0, 0, 0);
+}
+.huli .table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.8em;
+    max-width: 900px;
+}
+.huli .table thead th{
+    background-color: #00c83f;
+    color: #fff;
+    text-align: left;
+    text-decoration: dashed;
+}
+.huli .table thead tr{
+    background-color: #b1ffca;
+    color: #000000;
+    text-align: left;
+    
+}
+.huli .table thead th,
+.huli .table thead td{
+    padding: 5px 10px;
+}
